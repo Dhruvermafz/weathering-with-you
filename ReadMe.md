@@ -19,5 +19,5 @@ The 5-days weather forecast also displays below the current weather conditions s
 - Temperature
 - Humidity
 
-Check out live site [WeatherDashboard](https://weatherdashboards.netlify.app/)
-Check another live site [Host by Github](https://sahiljanbandhu.github.io/Weather-Dashboard/)
+Check out live site [Weathering With You](https://weathering-with-you-theta.vercel.app/)
+Check on Github [Host by Github](https://sahiljanbandhu.github.io/Weather-Dashboard/)

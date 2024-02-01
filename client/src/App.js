@@ -1,6 +1,8 @@
 import React from "react";
-
-import Titles from "./components/Titles";
+import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import About from "./components/About";
+import Home from "./components/Home";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
 import { apiKey } from "./config";
@@ -46,30 +48,38 @@ class App extends React.Component {
   };
   render() {
     return (
-      <div>
-        <div className="wrapper">
-          <div className="main">
-            <div className="container">
-              <div className="row">
-                <div className="col-xs-5 title-container">
-                  <Titles />
-                </div>
-                <div className="col-xs-7 form-container">
-                  <Form getWeather={this.getWeather} />
-                  <Weather
-                    temperature={this.state.temperature}
-                    humidity={this.state.humidity}
-                    city={this.state.city}
-                    country={this.state.country}
-                    description={this.state.description}
-                    error={this.state.error}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      // <div>
+      //   <div className="wrapper">
+      //     <div className="main">
+      //       <div className="container">
+      //         <div className="row">
+      //           <div className="col-xs-5 title-container">
+      //             <h1 className="title-container__title">
+      //               Weathering With You
+      //             </h1>
+      //           </div>
+      //           <div className="col-xs-7 form-container">
+      //             <Form getWeather={this.getWeather} />
+      //             <Weather
+      //               temperature={this.state.temperature}
+      //               humidity={this.state.humidity}
+      //               city={this.state.city}
+      //               country={this.state.country}
+      //               description={this.state.description}
+      //               error={this.state.error}
+      //             />
+      //           </div>
+      //         </div>
+      //       </div>
+      //     </div>
+      //   </div>
+      // </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
     );
   }
 }
