@@ -13,10 +13,11 @@ const About = () => {
                 as="h3"
                 className="font-sans text-xl font-medium text-gray-600 dark:text-white"
               >
-                About ReactWeather
+                About Weathering With You
               </Card.Title>
               <Card.Text className="pt-4">
-                ReactWeather is a beautiful weather app built on top of the{" "}
+                Weathering With You is a beautiful weather app built on top of
+                the{" "}
                 <a
                   className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
                   href="https://openweathermap.com/api"
@@ -28,16 +29,15 @@ const About = () => {
                 .
               </Card.Text>
               <Card.Text className="pt-4">
-                It is a labor of ❤️ open-source project by me,{" "}
+                Check out more on{" "}
                 <a
                   className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
-                  href="https://denniskigen.com"
+                  href="https://dhruvermafz.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Dennis Kigen
+                  Dhruv Verma
                 </a>
-                , a software developer, writer and maker of cool stuff.
               </Card.Text>
               <Card.Text className="pt-4">
                 It runs on{" "}
@@ -52,25 +52,16 @@ const About = () => {
                 and{" "}
                 <a
                   className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
-                  href="https://tailwindcss.com"
+                  href="https://react-bootstrap.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  TailwindCSS
+                  Bootstrap
                 </a>
-                . It uses{" "}
+                . It is hosted on{" "}
                 <a
                   className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
-                  href="https://erikflowers.github.io/weather-icons/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Erik Flowers&apos; weather icons
-                </a>{" "}
-                and is hosted on{" "}
-                <a
-                  className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
-                  href="https://react-weather.denniskigen.com"
+                  href="https://weathering-with-you-theta.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -81,7 +72,7 @@ const About = () => {
                   className="text-indigo-500 underline hover:text-indigo-700 dark:text-gray-300 dark:hover:text-gray-600"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/denniskigen/react-weather"
+                  href="https://github.com/Dhruvermafz/weathering-with-you"
                 >
                   GitHub
                 </a>{" "}
@@ -93,19 +84,6 @@ const About = () => {
             </Card.Body>
           </Card>
         </Container>
-        <div className="d-flex justify-content-center mt-3">
-          <a
-            href="https://www.buymeacoffee.com/denniskigen"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-              alt="Buy Me A Coffee"
-              className="h-16 w-56 rounded-lg shadow"
-            />
-          </a>
-        </div>
       </Layout>
     </>
   );

@@ -27,7 +27,7 @@ const NavBar = () => {
           <Link to="/about" className="nav-link">
             About
           </Link>
-          <Nav.Link href="https://github.com/denniskigen/react-weather">
+          <Nav.Link href="https://github.com/Dhruvermafz/weathering-with-you">
             GitHub
           </Nav.Link>
         </Nav>

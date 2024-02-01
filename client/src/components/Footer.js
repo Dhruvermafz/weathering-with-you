@@ -9,11 +9,11 @@ const Footer = () => {
           Crafted by{" "}
           <a
             className="text-primary"
-            href="https://denniskigen.com"
+            href="https://dhruvermafz.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Dennis
+            Dhruv Verma
           </a>
         </div>
       </Container>
